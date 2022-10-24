@@ -6,9 +6,6 @@ class ToDo {
   ToDo({required this.id, required this.todoText, this.isDone = false});
 
   static List<ToDo> todoList() {
-    return [
-      ToDo(id: '01', todoText: 'Study Flutter', isDone: false),
-      ToDo(id: '01', todoText: 'Study Flutter', isDone: true)
-    ];
+    return [];
   }
 }
